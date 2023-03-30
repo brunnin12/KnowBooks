@@ -9,32 +9,39 @@ body{
     background-color: #e7eaf6;
 }
 
-
-h1{
-    justify-content: left;
-    font-size: 3.0rem ;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 25px;
-    display: flex;
+header{
+    background-color: #1A1A2A;
 }
 
-#login{
-    padding: 42px;
+.knowbooks{
+    text-decoration: none;
     list-style: none;
-    font-size: 1.6rem;
+   margin-left: 30px ;
+   font-size: 1.8rem;
 }
-
-
 
 .topo{
-    text-decoration: none;
     display: flex;
-    flex-direction: row;
-    justify-content: right;
+    justify-content: end;
+    
+}
+
+.topo li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    border: 3px black solid;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 
 .banner{
-    border: 3px solid rgb(14, 50, 80);
+    border: 3px solid rgb(0, 0, 0);
     border-radius: 24px;
     padding: 20px;
     margin: 20px;
@@ -45,20 +52,20 @@ h1{
     height: 200px;
 }
 
-
 .menu{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #a2a8d3;
+    background-color: #121a53;
     list-style: none;
     padding: 25px;
     font-size: 1.6rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #113f67;
+    color: #05131f;
 }
 .menu li a{
     text-decoration: none;
+    list-style-type: none;
 }
 
 
@@ -91,18 +98,26 @@ h2{
 .livro1, .livro2, .livro3 {
 border: 3px #385170 solid;
 border-radius: 24px;
-padding: 40px;
-width: 200px;
-height: 100%;
+padding: 20px;
+width: 300px;
+height: 80%;
 }
 
-.nome{
-    font-size: 12px;
+.conteudo{
+    font-size: 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
+
+.produto1:hover{
+    transform: scale(1.1);
+    transition: 1.0px;
+    cursor: pointer;
+} 
 
 .comprar{
-    width: 91px;
-    height: 11%;
+    width: 110px;
+    height: 13%;
     font-size: 1.1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #9cd3d3;
@@ -114,6 +129,46 @@ height: 100%;
 
 
 /* css footer*/
+
+footer{
+    background-color: #132743;
+    height: 160px;
+    color: wheat;
+    
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.icones img{
+    width: 3%;
+    height: 2%;
+    margin: 1.7rem 0.5rem;
+}
+
+.texto_footer{
+    display: flex;  
+    flex-direction: row;
+    justify-content: center;
+    margin:-35px;
+}
+
+.info, .marke, .suporte{
+    padding: 5px;
+    font-weight: bold;
+}
+
+.politicas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   padding: 2px;
+    font-weight: bold;
+}
 
 
 
